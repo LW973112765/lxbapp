@@ -1,0 +1,128 @@
+page.data-v-b466d43c {
+  background-color: #FFFAE8;
+}
+.popup-content.data-v-b466d43c {
+  z-index: 999999;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  height: 50px;
+  background-color: #fff;
+}
+.popup-height.data-v-b466d43c {
+  width: 200px;
+}
+.sharemain.data-v-b466d43c {
+  z-index: 999999;
+  width: 100%;
+  height: 200rpx;
+  background: -webkit-linear-gradient(top, pink, yellow);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.sharemain .share.data-v-b466d43c {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.sharemain .share image.data-v-b466d43c {
+  margin-top: 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.popup-success.data-v-b466d43c {
+  color: #fff;
+  background-color: #e1f3d8;
+}
+.popup-warn.data-v-b466d43c {
+  color: #fff;
+  background-color: #faecd8;
+}
+.popup-error.data-v-b466d43c {
+  color: #fff;
+  background-color: #fde2e2;
+}
+.popup-info.data-v-b466d43c {
+  color: #fff;
+  background-color: #f2f6fc;
+}
+.main.data-v-b466d43c {
+  width: 340rpx;
+  height: 300rpx;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-left: 17rpx;
+  margin-right: 17rpx;
+  background-color: #FFFAE8;
+}
+.top.data-v-b466d43c {
+  position: relative;
+  width: 100%;
+  height: 200rpx;
+}
+.top image.data-v-b466d43c {
+  width: 100%;
+  height: 200rpx;
+}
+.buttom.data-v-b466d43c {
+  position: relative;
+  width: 100%;
+  padding: 10rpx 10rpx;
+  background-color: white;
+  height: 100rpx;
+}
+.buttom view.data-v-b466d43c {
+  width: 100%;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.buttom image.data-v-b466d43c {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  top: 1rpx;
+  right: 1rpx;
+}
+.detail.data-v-b466d43c {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.detail image.data-v-b466d43c {
+  height: 20px;
+  width: 40rpx;
+  vertical-align: middle;
+}
+.detail .left.data-v-b466d43c {
+  width: 200rpx;
+  display: flex;
+  height: 30px;
+  float: left;
+  color: white;
+  font-size: 15rpx;
+}
+.detail .left .zxl.data-v-b466d43c {
+  margin-right: 10rpx;
+}
+.detail .right.data-v-b466d43c {
+  min-width: 50rpx;
+  color: white;
+  font-size: 15rpx;
+  line-height: 30rpx;
+  padding-top: 10rpx;
+  padding-right: 10rpx;
+  height: 30px;
+  float: right;
+}
+

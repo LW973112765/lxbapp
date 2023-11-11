@@ -1,0 +1,84 @@
+
+page {
+	background-color: #242a2f;
+}
+.headBox {
+	display: flex;
+	align-items: center;
+	padding: 80rpx 30rpx;
+	background: #252427;
+}
+.avatarImg {
+	height: 140rpx;
+	width: 140rpx;
+	border-radius: 80rpx;
+}
+.headContent {
+	margin-left: 20rpx;
+	font-size: 26rpx;
+	flex: 1;
+	color: #FFFFFF;
+	line-height: 80rpx;
+	font-size: 36rpx;
+	font-weight: bold;
+}
+.headContent input{
+	color: #FFFFFF;
+}
+.saveBtn{
+	width: 120rpx;
+	line-height: 80rpx;
+	text-align: center;
+	color: #FFFFFF;
+}
+.footBox {
+	margin-top: -50rpx;
+	border-radius: 50rpx;
+	background: #242a2f;
+}
+.navBox {
+	color: #FFFFFF;
+	display: flex;
+	padding: 50rpx 20rpx;
+}
+.navItem {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.navTitle {
+	line-height: 60rpx;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.navTxt {
+	font-size: 26rpx;
+	color: #999999;
+}
+.navImg {
+	width: 80rpx;
+	height: 80rpx;
+}
+.listClass {
+	padding: 30rpx;
+	display: flex;
+	align-items: center;
+	border-bottom: 2rpx #F7F7F7 solid;
+}
+.listTxt {
+	flex: 1;
+	font-size: 32rpx;
+	font-weight: bold;
+	margin-left: 20rpx;
+}
+.line-box {
+	padding: 30rpx 0;
+	width: 96%;
+	height: 200px;
+}
+.pie-box {
+	width: 100%;
+	height: 300px;
+}
+

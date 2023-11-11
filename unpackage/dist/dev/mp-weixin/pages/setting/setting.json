@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "设置",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "backgroundColor": "#F8F8F8",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item"
+  }
+}

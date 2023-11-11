@@ -1,0 +1,88 @@
+.main.data-v-255c4306 {
+  width: 100%;
+}
+.content.data-v-255c4306 {
+  position: relative;
+  background: -webkit-linear-gradient(top, pink, #999999);
+  background-size: cover;
+  padding-top: 30rpx;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content view.data-v-255c4306 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.cover.data-v-255c4306 {
+  position: relative;
+  background: url(/static/images/personal/12.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300rpx;
+}
+.cover .music.data-v-255c4306 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 20rpx;
+}
+.musicImg.data-v-255c4306 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.article.data-v-255c4306 {
+  width: 100%;
+  height: auto;
+  background: -webkit-linear-gradient(top, pink, #999999);
+}
+/* 磁盘 */
+.discContainer.data-v-255c4306 {
+  position: relative;
+  top: 10%;
+  left: 55%;
+  width: 240rpx;
+  height: 240rpx;
+  -webkit-animation: disc-data-v-255c4306 6s linear infinite;
+          animation: disc-data-v-255c4306 6s linear infinite;
+}
+.discContainer .disc.data-v-255c4306 {
+  position: absolute;
+  width: 240rpx;
+  height: 240rpx;
+}
+@-webkit-keyframes disc-data-v-255c4306 {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes disc-data-v-255c4306 {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "zero-lazy-load": "/uni_modules/zero-lazy-load/components/zero-lazy-load/zero-lazy-load"
+  }
+}

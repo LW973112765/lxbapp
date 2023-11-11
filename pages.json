@@ -1,0 +1,1450 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue",
+		"^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTextStyle": "black",
+		// 		"navigationBarBackgroundColor": "#F8F8F8",
+		// 		"backgroundColor": "#F8F8F8",
+		// 		"app-plus": {
+		// 		 "titleNView": {
+		// 		  "searchInput":{
+		// 		   "placeholder": "请输入关键字搜索",
+		// 		   "borderRadius":"50rpx",
+		// 		   "backgroundColor": "#f1f1f1",
+		// 		   "align":"left" ,//对齐方式
+		// 		   "disabled": true
+		// 		  },
+		// 		  "buttons":[
+		// 		      {
+		// 		          "text":"\ue70b",
+		// 				  "fontSrc": "static/fonts/iconfont.ttf",
+		// 		          "type":"none",
+		// 		          "color":"#999",
+		// 		          "background":"#000000",
+		// 		          "fontSize":"20px",
+		// 				   "float":"left"
+		// 		      },
+		// 			  {
+		// 			      "text":"\ue636",
+		// 			      "fontSrc": "static/fonts/iconfont.ttf",
+		// 			      "type":"none",
+		// 			      "color":"#999",
+		// 			      "background":"#000000",
+		// 			      "fontSize":"20px",
+		// 			  				  		"float":"right"
+		// 			  }
+		// 		  ]
+		// 		 }
+		// 		}
+		// 	}
+		// 	},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/photo/photo",
+			"style": {
+				"navigationBarTitleText": "相册",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue63b",
+								"fontSrc": "static/fonts/iconfont.ttf",
+								"type": "none",
+								"color": "#333",
+								"background": "#000000",
+								"fontSize": "20px",
+								"float": "right"
+							},
+							{
+								"text": "\ue670",
+								"fontSrc": "static/fonts/iconfont.ttf",
+								"type": "none",
+								"color": "#333",
+								"background": "#000000",
+								"fontSize": "20px",
+								"float": "left"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/article/article",
+			"style": {
+				"navigationBarTitleText": "文章",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8"
+			}
+
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8"
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue670",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/ArticleInfo/ArticleInfo",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8"
+			}
+
+		}, {
+			"path": "pages/VideoInfo/VideoInfo",
+			"style": {
+				"navigationBarTitleText": "视频详情",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "下载",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/Liulanjilu/Liulanjilu",
+			"style": {
+				"navigationBarTitleText": "浏览记录",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "清空",
+							"type": "none",
+							"color": "#999",
+							"background": "#000000",
+							"fontSize": "16px"
+						}]
+					}
+				}
+
+			}
+
+		}, {
+			"path": "pages/Collectinfo/Collectinfo",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "数量",
+							"type": "none",
+							"color": "#999",
+							"background": "#000000",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "留言",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/note/note",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/musicinfo/musicinfo",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue660",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/musiclist/musiclist",
+			"style": {
+				"navigationBarTitleText": "音乐列表",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/question/question",
+			"style": {
+				"navigationBarTitleText": "问卷调查",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/questioninfo/questioninfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"placeholder": "请输入关键字搜索",
+							"borderRadius": "50rpx",
+							"backgroundColor": "#f1f1f1",
+							"align": "left" //对齐方式
+						},
+						"buttons": [{
+							"text": "搜索",
+							"type": "none",
+							"color": "black",
+							"background": "#000000",
+							"fontSize": "16px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/searchitem/searchitem",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"placeholder": "请输入关键字搜索",
+							"borderRadius": "50rpx",
+							"backgroundColor": "#f1f1f1",
+							"align": "left" //对齐方式
+						},
+						"buttons": [{
+							"text": "\ue690",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "aqua",
+							"background": "#000000",
+							"fontSize": "16px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/musicintroduction/musicintroduction",
+			"style": {
+				"navigationBarTitleText": "音乐简介 ",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "列表",
+							"type": "none",
+							"color": "black",
+							"background": "#000000",
+							"fontSize": "16px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/fanyi/fanyi",
+			"style": {
+				"navigationBarTitleText": "翻译",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/joke/joke",
+			"style": {
+				"navigationBarTitleText": "每日一笑",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/tianqi/tianqi",
+			"style": {
+				"navigationBarTitleText": "天气查询",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/tupian/tupian",
+			"style": {
+				"navigationBarTitleText": "随机美图",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/history/history",
+			"style": {
+				"navigationBarTitleText": "历史上的今天",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tools/music/music",
+			"style": {
+				"navigationBarTitleText": "随机歌曲",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue660",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/tsetupload/tsetupload",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personinfo/personinfo",
+			"style": {
+				"navigationBarTitleText": "我的资料",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/uploadphoto/updan/updan",
+			"style": {
+				"navigationBarTitleText": "单张图片上传",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/uploadphoto/upduo/upduo",
+			"style": {
+				"navigationBarTitleText": "多张图片上传",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/showimg/showimg",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+
+		},
+		{
+			"path": "pages/showimgtwo/showimgtwo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+
+		},
+		{
+			"path": "pages/download/download",
+			"style": {
+				"navigationBarTitleText": "下载管理",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue6ff",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "left"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/downloadvideoinfo/downloadvideoinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/upvideo/upvideo",
+			"style": {
+				"navigationBarTitleText": "上传视频",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/accountmanage/accountmanage",
+			"style": {
+				"navigationBarTitleText": "账号管理",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "编辑",
+							"type": "none",
+							"color": "black",
+							"background": "#000000",
+							"fontSize": "16px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/commentaudit/commentaudit",
+			"style": {
+				"navigationBarTitleText": "评论审核",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/suixinji/accounts/addAcc/addAcc",
+			"style": {
+				"navigationBarTitleText": "记账",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/suixinji/accounts/listAcc/listAcc",
+			"style": {
+				"navigationBarTitleText": "全部账单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/suixinji/accounts/detailAcc/detailAcc",
+			"style": {
+				"navigationBarTitleText": "费用详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/suixinji/accounts/home/home",
+			"style": {
+				"navigationBarTitleText": "费用明细",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/suixinji/accounts/my/my",
+			"style": {
+				"navigationBarTitleText": "明细统计",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "清空",
+							"type": "none",
+							"color": "#999",
+							"background": "#000000",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/upvideo/upvideoother/upvideoother",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/beiwanglu/beiwanglu",
+			"style": {
+				"navigationBarTitleText": "备忘录",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue63c",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#5294ec",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/addbeiwanglu/addbeiwanglu",
+			"style": {
+				"navigationBarTitleText": "添加备忘",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/beiwangludetail/beiwangludetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "编辑",
+							"type": "none",
+							"color": "black",
+							"background": "#000000",
+							"fontSize": "16px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "uni_modules/rt-uni-update/components/rt-uni-update/rt-uni-update",
+			"style": {
+				"app-plus": {
+					"animationDuration": 200,
+					"animationType": "fade-in",
+					"background": "transparent",
+					"backgroundColorTop": "transparent",
+					"popGesture": "none",
+					"scrollIndicator": false,
+					"titleNView": false
+				},
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/huaban/index/index",
+			"style": {
+				"navigationBarTitleText": "我的画板 ",
+				"enablePullDownRefresh": false
+
+			}
+
+		},
+		{
+			"path": "pages/huaban/whiteboard/whiteboard",
+			"style": {
+				"navigationBarTitleText": "极简画板",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/huaban/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/huaban/blackboard/blackboard",
+			"style": {
+				"navigationBarTitleText": "黑板画",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/yuya/yuya",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huaban/other/other",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/fanye/fanye",
+			"style": {
+				"navigationBarTitleText": "精美句子",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/addword/addword",
+			"style": {
+				"navigationBarTitleText": "上传精美句子",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/eluosifangkuai/eluosifangkuai",
+			"style": {
+				"navigationBarTitleText": "俄罗斯方块",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huaban/shuangrenwuziqi/shuangrenwuziqi",
+			"style": {
+				"navigationBarTitleText": "双人五子棋",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huaban/2048/2048",
+			"style": {
+				"navigationBarTitleText": "2048",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/home/home",
+			"style": {
+				"navigationBarTitleText": "情侣空间",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/my/my",
+			"style": {
+				"navigationBarTitleText": "情侣空间",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/jiangpinlist/jiangpinlist",
+			"style": {
+				"navigationBarTitleText": "奖品列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/jiangpinjilu/jiangpinjilu",
+			"style": {
+				"navigationBarTitleText": "奖品记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/choujiang/choujiang",
+			"style": {
+				"navigationBarTitleText": "抽奖",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/duihuan/duihuan",
+			"style": {
+				"navigationBarTitleText": "奖品兑换",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/jifenjilu/jifenjilu",
+			"style": {
+				"navigationBarTitleText": "积分记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/jifenhuode/jifenhuode",
+			"style": {
+				"navigationBarTitleText": "积分获得说明",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/uploadword/uploadword",
+			"style": {
+				"navigationBarTitleText": "写回忆",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/uploadphoto/uploadphoto",
+			"style": {
+				"navigationBarTitleText": "写回忆",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/shuoshuo/shuoshuo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/shuoshuoinfo/shuoshuoinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"softinputmode": "adjustResize"
+				}
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/uploadvideo/uploadvideo",
+			"style": {
+				"navigationBarTitleText": "写回忆",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/jinianri/jinianri",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/zhuye/zhuye",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue63b",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/updateinfo/updateinfo",
+			"style": {
+				"navigationBarTitleText": "编辑资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/choujiangtwo/choujiangtwo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/privateChat/privateChat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				// "navigationBarBackgroundColor": "blue",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue63a",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/conversations/conversations",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/home/home",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/contacts/contacts",
+			"style": {
+				"navigationBarTitleText": "联系人",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue6a0",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/chat/addfriend/addfriend",
+			"style": {
+				"navigationBarTitleText": "添加好友",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/friendapply/friendapply",
+			"style": {
+				"navigationBarTitleText": "好友申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/setting/setting",
+			"style": {
+				"navigationBarTitleText": "好友信息设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/chatsetting/chatsetting",
+			"style": {
+				"navigationBarTitleText": "聊天设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/uploadbg/uploadbg",
+			"style": {
+				"navigationBarTitleText": "上传聊天背景",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/huaban/doushouqi/doushouqi",
+			"style": {
+
+				"navigationBarTitleText": "斗兽棋",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue616",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/huaban/xiaoxiaole/xiaoxiaole",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/appdata/appdata",
+			"style": {
+				"navigationBarTitleText": "应用数据",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/appdata/user/user",
+			"style": {
+				"navigationBarTitleText": "用户年龄分布图",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/appdata/map/map",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/appdata/category/category",
+			"style": {
+				"navigationBarTitleText": "文章分类",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/appdata/appinfo/appinfo",
+			"style": {
+				"navigationBarTitleText": "数据详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/codelogin/codelogin",
+			"style": {
+				"navigationBarTitleText": "扫码结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/erweima/erweima",
+			"style": {
+				"navigationBarTitleText": "My二维码",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue670",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/erweima/login/login",
+			"style": {
+				"navigationBarTitleText": "登录二维码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/saoma/saoma",
+			"style": {
+				"navigationBarTitleText": "扫码登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/erweima/makecode/makecode",
+			"style": {
+				"navigationBarTitleText": "二维码制作",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/erweima/codeinfo/codeinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/erweima/makecode/makecode",
+			"style": {
+				"navigationBarTitleText": "二维码制作",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/anime/anime",
+			"style": {
+				"navigationBarTitleText": "MY动漫",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/animeinfo/animeinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/testdemo/testdemo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loveyoueveryday/loveyoueveryday",
+			"style": {
+				"navigationBarTitleText": "I LOVE YOU EVERYDAY",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/memory",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/memoryinfo/memoryinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/addphoto/addphoto",
+			"style": {
+				"navigationBarTitleText": "新建相册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/updatephoto/updatephoto",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/coverselect/coverselect",
+			"style": {
+				"navigationBarTitleText": "选择相册封面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/imageyulan/imageyulan",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300
+				}
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/selectphoto/selectphoto",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/uploadphoto/uploadphoto",
+			"style": {
+				"navigationBarTitleText": "上传照片",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/testdemo/testupload/testupload",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/lunbotusetting/lunbotusetting",
+			"style": {
+				"navigationBarTitleText": "本地轮播图",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "编辑",
+							"type": "none",
+							"color": "black",
+							"background": "#000000",
+							"fontSize": "16px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/uploadyulan/uploadyulan",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue6a1",
+							"fontSrc": "static/fonts/iconfont.ttf",
+							"type": "none",
+							"color": "#333",
+							"background": "#000000",
+							"fontSize": "20px",
+							"float": "right"
+						}]
+					}
+				}
+
+			}
+
+		}, {
+			"path": "pages/mingpian/mingpian",
+			"style": {
+				"navigationBarTitleText": "我的名片",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/setbeizhu/setbeizhu",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/jishiben/jishiben",
+			"style": {
+				"navigationBarTitleText": "记事本",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/anition/anition",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/qinglvkongjian/memory/memoryinfoyulan/memoryinfoyulan",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/kongtiao/kongtiao",
+			"style": {
+				"navigationBarTitleText": "郎小宝空调",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/heros/heros",
+			"style": {
+				"navigationBarTitleText": "王者荣耀英雄大全",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/heros/heroinfo/heroinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/lunbotumanage/lunbotumanage",
+			"style": {
+				"navigationBarTitleText": "云端轮播图",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "上传",
+							"type": "none",
+							"color": "black",
+							"background": "#000000",
+							"fontSize": "16px",
+							"float": "right"
+						}]
+					}
+				}
+
+			}
+
+		}, {
+			"path": "pages/lunbotuupload/lunbotuupload",
+			"style": {
+				"navigationBarTitleText": "上传轮播图",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/translate/translate",
+			"style": {
+				"navigationBarTitleText": "闲聊模式",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "设置",
+								"type": "none",
+								"color": "black",
+								"background": "#000000",
+								"fontSize": "16px",
+								"float": "right"
+							},
+							{
+								"text": "帮助",
+								"type": "none",
+								"color": "black",
+								"background": "#000000",
+								"fontSize": "16px",
+								"float": "right"
+							}
+						]
+
+					}
+				}
+
+			}
+
+		}, {
+			"path": "pages/translate/changelanguage/changelanguage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/translate/videoyulan/videoyulan",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/translate/help/help",
+			"style": {
+				"navigationBarTitleText": "使用帮助",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"bounce": "none",
+			"scrollIndicator": "none" //全局 在APP页面都不显示滚动条
+		}
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#d81e06",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"iconPath": "static/images/fonts/shouye.png",
+				"selectedIconPath": "static/images/fonts/shouye1.png"
+			},
+			{
+				"pagePath": "pages/article/article",
+				"text": "文章",
+				"iconPath": "static/images/fonts/wenzhang.png",
+				"selectedIconPath": "static/images/fonts/wenzhang1.png"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"text": "视频",
+				"iconPath": "static/images/fonts/shiping.png",
+				"selectedIconPath": "static/images/fonts/shiping1.png"
+			},
+			{
+				"pagePath": "pages/photo/photo",
+				"text": "相册",
+				"iconPath": "static/images/fonts/xiangce.png",
+				"selectedIconPath": "static/images/fonts/xiangce1.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "个人中心",
+				"iconPath": "static/images/fonts/yonghu.png",
+				"selectedIconPath": "static/images/fonts/yonghu1.png"
+			}
+		]
+	}
+}

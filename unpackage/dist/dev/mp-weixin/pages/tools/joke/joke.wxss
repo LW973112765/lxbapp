@@ -1,0 +1,32 @@
+
+page{
+	background: -webkit-linear-gradient(top, pink, #999999);
+}
+
+page.data-v-7cdb601c {
+  width: 100%;
+  height: 100%;
+}
+.main.data-v-7cdb601c {
+  min-height: 300px;
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  margin-right: 30px;
+  background: radial-gradient(aqua, white);
+}
+.top.data-v-7cdb601c,
+.content.data-v-7cdb601c,
+.type.data-v-7cdb601c {
+  position: relative;
+  margin: 20rpx auto;
+  width: 80%;
+}
+.data-v-7cdb601c .el-button {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  margin-bottom: 20px;
+}
+

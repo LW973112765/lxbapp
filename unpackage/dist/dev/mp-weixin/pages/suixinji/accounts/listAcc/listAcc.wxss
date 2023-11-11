@@ -1,0 +1,57 @@
+
+page{
+	background-color: #1c2025;
+}
+.listBox{
+	padding: 30rpx;
+}
+.listItemBox{
+	padding: 20rpx;
+	background: #242a2f;
+	border-radius: 20rpx;
+	margin-bottom: 20rpx;
+}
+.listTitle{
+	color: #FFFFFF;
+	display: flex;
+}
+.dayAccBox{
+		padding-top: 20rpx;
+		background: #242a2f;
+		border-radius: 20rpx;
+}
+.billTime {
+		color: #FFFFFF;
+		font-size: 28rpx;
+		line-height: 52rpx;
+		/* border-bottom: 2rpx #F7F7F7 solid;
+ */
+}
+.billList {
+		display: flex;
+		align-items: center;
+}
+.billImg {
+		width: 80rpx;
+		height: 80rpx;
+		padding: 20rpx;
+}
+.billContent {
+		flex: 1;
+}
+.contentTitle {
+		line-height: 60rpx;
+		font-size: 30rpx;
+		font-weight: bold;
+		color: #FFFFFF;
+}
+.billContent .remark {
+		font-size: 26rpx;
+		color: #b4b4b4;
+}
+.billMoney {
+		color: #ff4c4c;
+		font-size: 36rpx;
+		font-weight: bold;
+}
+

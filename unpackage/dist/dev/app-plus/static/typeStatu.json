@@ -1,0 +1,93 @@
+[{
+	"img": "../../../../static/icon/food01.png",
+	"name": "早中晚餐",
+	"id": 1
+}, {
+	"img": "../../../../static/icon/food02.png",
+	"name": "饮料",
+	"id": 2
+}, {
+	"img": "../../../../static/icon/food03.png",
+	"name": "蔬菜",
+	"id": 3
+}, {
+	"img": "../../../../static/icon/food04.png",
+	"name": "零食",
+	"id": 4
+}, {
+	"img": "../../../../static/icon/other.png",
+	"name": "其他",
+	"id": 5
+}, {
+	"img": "../../../../static/icon/dress01.png",
+	"name": "衣服",
+	"id": 6
+}, {
+	"img": "../../../../static/icon/dress02.png",
+	"name": "鞋子",
+	"id": 7
+}, {
+	"img": "../../../../static/icon/dress03.png",
+	"name": "帽子",
+	"id": 8
+}, {
+	"img": "../../../../static/icon/dress04.png",
+	"name": "首饰",
+	"id": 9
+}, {
+	"img": "../../../../static/icon/other.png",
+	"name": "其他",
+	"id": 10
+}, {
+	"img": "../../../../static/icon/home01.png",
+	"name": "日常用品",
+	"id": 11
+}, {
+	"img": "../../../../static/icon/home02.png",
+	"name": "厨房用品",
+	"id": 12
+}, {
+	"img": "../../../../static/icon/home03.png",
+	"name": "床上用品",
+	"id": 13
+}, {
+	"img": "../../../../static/icon/home04.png",
+	"name": "电器用品",
+	"id": 14
+}, {
+	"img": "../../../../static/icon/other.png",
+	"name": "其他",
+	"id": 15
+}, {
+	"img": "../../../../static/icon/play01.png",
+	"name": "交通费",
+	"id": 16
+}, {
+	"img": "../../../../static/icon/play02.png",
+	"name": "油费",
+	"id": 17
+}, {
+	"img": "../../../../static/icon/play03.png",
+	"name": "娱乐",
+	"id": 18
+}, {
+	"img": "../../../../static/icon/other.png",
+	"name": "其他",
+	"id": 19
+}, {
+	"img": "../../../../static/icon/outlay01.png",
+	"name": "工资",
+	"id": 20
+}, {
+	"img": "../../../../static/icon/outlay02.png",
+	"name": "兼职",
+	"id": 21
+}, {
+	"img": "../../../../static/icon/outlay03.png",
+	"name": "福利",
+	"id": 22
+}, {
+	"img": "../../../../static/icon/other.png",
+	"name": "其他",
+	"id": 23
+}]

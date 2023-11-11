@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "相册",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "backgroundColor": "#F8F8F8",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "zero-waterfall": "/uni_modules/zero-waterfall/components/zero-waterfall/zero-waterfall",
+    "loading": "/components/Loading/Loading",
+    "zero-loading": "/uni_modules/zero-loading/components/zero-loading/zero-loading"
+  }
+}

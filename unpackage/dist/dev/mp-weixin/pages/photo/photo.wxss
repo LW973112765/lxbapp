@@ -1,0 +1,25 @@
+
+page{
+	background:#999999;
+}
+
+
+page.data-v-72cf41ac{
+	width: 100%;
+	height: 100%;
+}
+.loading.data-v-72cf41ac {
+  cursor: pointer;
+  position: absolute;
+  bottom: 2px;
+  left: 40%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: red;
+}
+.load2.data-v-72cf41ac{
+	position: relative;
+	bottom: 10rpx;
+	margin-top: 20rpx;
+}
+

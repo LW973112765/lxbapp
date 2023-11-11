@@ -1,0 +1,39 @@
+
+page{
+	background: -webkit-linear-gradient(top, pink, #999999);
+}
+
+page.data-v-14d15d72 {
+  width: 100%;
+  height: 100%;
+}
+.main.data-v-14d15d72 {
+  padding-top: 30rpx;
+  width: 100%;
+  height: auto;
+  margin-right: 30rpx;
+  background: radial-gradient(aqua, white);
+}
+.top.data-v-14d15d72,
+.content.data-v-14d15d72,
+.type.data-v-14d15d72 {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+}
+.data-v-14d15d72 .uni-select {
+  background-color: whitesmoke;
+  width: 100%;
+}
+.content.data-v-14d15d72 {
+  margin-top: 30rpx;
+}
+image.data-v-14d15d72 {
+  width: 100%;
+  height: 1200rpx;
+}
+.btn.data-v-14d15d72 {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+

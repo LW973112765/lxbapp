@@ -1,0 +1,65 @@
+
+page {
+	background: #1c2025;
+}
+.bgBox {
+	height: 340rpx;
+	background: #1c2025;
+}
+.detailBox {
+	width: 560rpx;
+	margin: -240rpx auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30rpx;
+	border-radius: 20rpx;
+	background: #242a2f;
+}
+.imgIcon {
+	width: 120rpx;
+	height: 120rpx;
+}
+.title {
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 80rpx;
+}
+.moneyTxt {
+	color: #ff4c4c;
+	font-size: 42rpx;
+	font-weight: bold;
+	line-height: 120rpx;
+}
+.flexBet {
+	font-size: 28rpx;
+	line-height: 60rpx;
+	color: #F4F4F4;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.borBottom {
+	border-bottom: 2rpx #f4f4f4;
+}
+.footBox {
+	display: flex;
+	justify-content: space-between;
+	padding: 60rpx 70rpx 0;
+}
+.btnClass {
+	color: #FFFFFF;
+	text-align: center;
+	width: 260rpx;
+	line-height: 80rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+	border-radius: 20rpx;
+}
+.edit {
+	background: #60cf64;
+}
+.del {
+	background: #ff4c4c;
+}
+

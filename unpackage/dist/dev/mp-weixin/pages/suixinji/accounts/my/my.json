@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "明细统计",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "qiun-data-charts": "/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup-message": "/uni_modules/uni-popup/components/uni-popup-message/uni-popup-message",
+    "foo-bar": "/components/fooBar/fooBar"
+  }
+}

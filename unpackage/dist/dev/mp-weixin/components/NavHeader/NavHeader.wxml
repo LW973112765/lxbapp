@@ -1,0 +1,1 @@
+<view class="data-v-c0c2efb4"><view class="header data-v-c0c2efb4"><text class="title data-v-c0c2efb4">{{title}}</text><view class="data-v-c0c2efb4"><text class="data-v-c0c2efb4">{{nav}}</text><text data-event-opts="{{[['tap',[['to',['$event']]]]]}}" class="more data-v-c0c2efb4" bindtap="__e">查看更多</text></view></view></view>

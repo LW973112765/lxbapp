@@ -1,0 +1,249 @@
+
+page{
+	background:url(/static/images/bg/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+page.data-v-891c2434 {
+  width: 100%;
+  height: 100%;
+}
+input.data-v-891c2434 {
+  margin: 10rpx;
+  border: 2rpx solid #999;
+  border-radius: 5rpx;
+  background-color: #eee;
+  height: 60rpx;
+}
+.other.data-v-891c2434 {
+  padding-left: 10rpx;
+  color: yellow;
+}
+.title.data-v-891c2434 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 30rpx;
+  text-align: center;
+  color: #666;
+}
+.youke.data-v-891c2434 {
+  right: 6rpx;
+  font-size: 35rpx;
+  cursor: pointer;
+  color: red;
+}
+.youke.data-v-891c2434:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+.form.data-v-891c2434 {
+  width: 90%;
+  height: 900rpx;
+  padding-left: 40rpx;
+  padding-right: 50rpx;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  padding-top: 20rpx;
+  border-radius: 10rpx;
+  position: relative;
+  opacity: 0.9;
+}
+.title.data-v-891c2434 {
+  margin-bottom: 30rpx;
+  text-align: center;
+  color: #666;
+}
+.zhuce.data-v-891c2434 {
+  font-size: 35rpx;
+  color: blueviolet;
+  cursor: pointer;
+}
+.zhuce.data-v-891c2434:hover {
+  text-decoration: underline;
+  color: brown;
+}
+.avatar-uploader .upload.data-v-891c2434 {
+  margin-left: 5rpx;
+  border: 1rpx dashed #d9d9d9;
+  border-radius: 6rpx;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .upload.data-v-891c2434:hover {
+  border-color: #409eff !important;
+}
+.avatar-uploader-icon.data-v-891c2434 {
+  font-size: 28rpx;
+  color: #8c939d;
+  width: 178rpx;
+  height: 178rpx;
+  line-height: 178rpx;
+  text-align: center;
+  background-color: white;
+}
+.avatar.data-v-891c2434 {
+  width: 178rpx;
+  height: 178rpx;
+  display: block;
+}
+._footer.data-v-891c2434 {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.code_input.data-v-891c2434 {
+  display: flex;
+  justify-content: space-between;
+}
+.code_input input.data-v-891c2434 {
+  width: 300rpx;
+}
+.code_input button.data-v-891c2434 {
+  height: 60rpx;
+  margin: 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+button.data-v-891c2434 {
+  margin-top: 40rpx;
+}
+@font-face {
+  font-family: 'tuiUpload';
+  src: url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAATcAA0AAAAAByQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEwAAAABoAAAAciR52BUdERUYAAASgAAAAHgAAAB4AKQALT1MvMgAAAaAAAABCAAAAVjxvR/tjbWFwAAAB+AAAAEUAAAFK5ibpuGdhc3AAAASYAAAACAAAAAj//wADZ2x5ZgAAAkwAAADXAAABAAmNjcZoZWFkAAABMAAAAC8AAAA2FpiS+WhoZWEAAAFgAAAAHQAAACQH3QOFaG10eAAAAeQAAAARAAAAEgwAACBsb2NhAAACQAAAAAwAAAAMAEoAgG1heHAAAAGAAAAAHwAAACABEgA2bmFtZQAAAyQAAAFJAAACiCnmEVVwb3N0AAAEcAAAACgAAAA6OMUs4HjaY2BkYGAAYo3boY/i+W2+MnCzMIDAzb3qdQj6fwPzf+YGIJeDgQkkCgA/KAtvAHjaY2BkYGBu+N/AEMPCAALM/xkYGVABCwBZ4wNrAAAAeNpjYGRgYGBl0GJgZgABJiDmAkIGhv9gPgMADTABSQB42mNgZGFgnMDAysDA1Ml0hoGBoR9CM75mMGLkAIoysDIzYAUBaa4pDA7PGJ9xMjf8b2CIYW5gaAAKM4LkANt9C+UAAHjaY2GAABYIVmBgAAAA+gAtAAAAeNpjYGBgZoBgGQZGBhBwAfIYwXwWBg0gzQakGRmYnjE+4/z/n4EBQksxSf6GqgcCRjYGOIeRCUgwMaACRoZhDwCiLwmoAAAAAAAAAAAAAAAASgCAeNpdjkFKw0AARf/vkIR0BkPayWRKQZtYY90ohJju2kOIbtz0KD1HVm50UfEmWXoAr9ADOHFARHHzeY//Fx8Ci+FJfIgdJFa4AhgiMshbrCuIsLxhFJZVs+Vl1bT1GddtbXTC3OhohN4dg4BJ3zMJAnccyfm468ZzHXddrH9ZKbHzdf9n/vkY/xv9sPQXgGEvBrHHwst5kTbXLE+YpYVPkxepPmW94W16UbdNJd6f3SAzo5W7m1jaKd+8ZZIvk5nlKw9SK6Wle7BLS3f/bTzQLmfAF2T1NsQAeNp9kD1OAzEQhZ/zByQSQiCoXVEA2vyUKRMp9Ailo0g23pBo1155nUg5AS0VB6DlGByAGyDRcgpelkmTImvt6PObmeexAZzjGwr/3yXuhBWO8ShcwREy4Sr1F+Ea+V24jhY+hRvUf4SbuFUD4RYu1BsdVO2Eu5vSbcsKZxgIV3CKJ+Eq9ZVwjfwqXMcVPoQb1L+EmxjjV7iFa2WpDOFhMEFgnEFjig3jAjEcLJIyBtahOfRmEsxMTzd6ETubOBso71dilwMeaDnngCntPbdmvkon/mDLgdSYbh4FS7YpjS4idCgbXyyc1d2oc7D9nu22tNi/a4E1x+xRDWzU/D3bM9JIbAyvkJI18jK3pBJTj2hrrPG7ZynW814IiU68y/SIx5o0dTr3bmniwOLn8owcfbS5kj33qBw+Y1kIeb/dTsQgil2GP5PYcRkAAAB42mNgYoAALjDJyIAOWMGiTIxMjMxsKak5qSWpbFmZiRmJ+QAmgAUIAAAAAf//AAIAAQAAAAwAAAAWAAAAAgABAAMABAABAAQAAAACAAAAAHjaY2BgYGQAgqtL1DlA9M296nUwGgA+8QYgAAA=) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.tui-upload-icon.data-v-891c2434 {
+  font-family: "tuiUpload" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 10rpx;
+}
+.tui-icon-delete.data-v-891c2434:before {
+  content: "\e601";
+}
+.tui-icon-plus.data-v-891c2434:before {
+  content: "\e609";
+}
+.tui-upload-box.data-v-891c2434 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tui-upload-add.data-v-891c2434 {
+  width: 220rpx;
+  height: 220rpx;
+  margin: 10rpx;
+  font-size: 68rpx;
+  font-weight: 100;
+  color: #888;
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.tui-image-item.data-v-891c2434 {
+  width: 220rpx;
+  height: 220rpx;
+  position: relative;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.tui-image-item.data-v-891c2434:nth-of-type(3n) {
+  margin-right: 0;
+}
+.tui-item-img.data-v-891c2434 {
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  width: 220rpx;
+  height: 220rpx;
+  display: block;
+}
+.tui-img-del.data-v-891c2434 {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  right: -12rpx;
+  top: -12rpx;
+  background: #EB0909;
+  border-radius: 50%;
+  color: white;
+  font-size: 34rpx;
+  z-index: 999;
+}
+.tui-img-del.data-v-891c2434::before {
+  content: '';
+  width: 16rpx;
+  height: 1px;
+  position: absolute;
+  left: 10rpx;
+  top: 18rpx;
+  background: #fff;
+}
+.tui-upload-mask.data-v-891c2434 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40rpx 0;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+}
+.tui-upload-loading.data-v-891c2434 {
+  width: 28rpx;
+  height: 28rpx;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: #B2B2B2 #B2B2B2 #B2B2B2 #fff;
+  -webkit-animation: tui-rotate-data-v-891c2434 0.7s linear infinite;
+          animation: tui-rotate-data-v-891c2434 0.7s linear infinite;
+}
+@-webkit-keyframes tui-rotate-data-v-891c2434 {
+0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes tui-rotate-data-v-891c2434 {
+0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.tui-tips.data-v-891c2434 {
+  font-size: 26rpx;
+  color: #fff;
+}
+.tui-mask-btn.data-v-891c2434 {
+  padding: 6rpx 16rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #fff;
+  border: 1rpx solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tui-hover.data-v-891c2434 {
+  opacity: 0.5;
+}
+

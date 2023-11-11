@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "黑板画",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "toolbar": "/components/toolbar/toolbar",
+    "color-panel": "/components/colorPanel/color-panel"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="item"><view class="main"><view class="shang"><rich-text nodes="{{slot.slotScope.item.title}}"></rich-text></view><view class="zhong"><rich-text nodes="{{slot.slotScope.item.content}}"></rich-text></view><view class="xia"><rich-text nodes="{{slot.slotScope.item.date}}"></rich-text></view></view></view>

@@ -1,0 +1,19 @@
+{
+    "id": "alger-showimg",
+    "name": "图片预览(使用简单 长按可保存分享)",
+    "version": "1.1.0",
+    "description": "图片预览(使用简单) 可以双指缩放 可以保存分享",
+    "keywords": [
+        "图片",
+        "image",
+        "img",
+        "图片预览",
+        "大图"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "前端页面模板"
+        ]
+    }
+}

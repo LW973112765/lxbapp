@@ -1,0 +1,97 @@
+.control {
+	display: flex;
+	padding: 40rpx 60rpx;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.direction {
+	width: 220rpx;
+	height: 230rpx;
+	position: relative;
+}
+
+/* .control-btn {
+	width: 60rpx;
+	height: 80rpx;
+	background: radial-gradient(#4b5a6f 34%, #3c495b 94%);
+	position: absolute;
+	border-bottom-left-radius: 30rpx;
+	border-bottom-right-radius: 30rpx;
+} */
+
+.control-top {
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 35rpx;
+	padding: 5rpx;
+	width: 60rpx;
+	height: 80rpx;
+	background: radial-gradient(#4b5a6f 34%, #3c495b 94%);
+	position: absolute;
+	border-bottom-left-radius: 30rpx;
+	border-bottom-right-radius: 30rpx;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0 2rpx 2rpx rgba(75,90,111,0.7);
+}
+
+.control-left {
+	padding: 5rpx;
+	box-sizing: border-box;
+	width: 80rpx;
+	height: 60rpx;
+	background: radial-gradient(#4b5a6f 34%, #3c495b 94%);
+	position: absolute;
+	border-top-right-radius: 30rpx;
+	border-bottom-right-radius: 30rpx;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%) ;
+	box-shadow: -1rpx 1rpx 1rpx rgba(75,90,111,0.7);
+}
+
+.control-right {
+	box-sizing: border-box;
+	padding-left: 8rpx;
+	width: 80rpx;
+	height: 60rpx;
+	/* line-height: 60rpx; */
+	background: radial-gradient(#4b5a6f 34%, #3c495b 94%);
+	position: absolute;
+	border-bottom-left-radius: 30rpx;
+	border-top-left-radius: 30rpx;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%) ;
+	box-shadow: 2rpx 2rpx 2rpx rgba(75,90,111,0.7);
+}
+
+.control-bottom {
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 35rpx;
+	padding: 5rpx;
+	width: 60rpx;
+	height: 80rpx;
+	background: radial-gradient(#4b5a6f 34%, #3c495b 94%);
+	position: absolute;
+	border-top-left-radius: 30rpx;
+	border-top-right-radius: 30rpx;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%) ;
+	box-shadow: 0 -1rpx 1rpx rgba(75,90,111,0.7);
+}
+
+.circle-btn {
+	width: 180rpx;
+	height: 180rpx;
+	text-align: center;
+	line-height: 180rpx;
+	border-radius: 180rpx;
+	background: radial-gradient(circle, #4b5a6f 34%, #3c495b 94%);
+	box-shadow: 0 4rpx 2rpx rgba(75,90,111,0.7);
+}

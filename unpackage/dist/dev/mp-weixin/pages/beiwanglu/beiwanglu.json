@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "备忘录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "beiwanglu-me-select-default": "/pages/beiwanglu/beiwanglu-me-select-default",
+    "me-select": "/components/me-select/me-select",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-message": "/uni_modules/uni-popup/components/uni-popup-message/uni-popup-message",
+    "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="navbar"><view class="nav-left"><block wx:if="{{showBack}}"><image class="menu-img" src="../../static/png/navbar_back.png" mode="aspectFill" data-event-opts="{{[['tap',[['navbarAction',['$event']]]]]}}" bindtap="__e"></image></block></view><view class="nav-middle"><text class="title">{{title}}</text></view><view class="nav-right"></view></view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "文章",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "article-item": "/components/ArticleItem/ArticleItem"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "l-barrage": "/components/l-barrage/l-barrage"
+  }
+}

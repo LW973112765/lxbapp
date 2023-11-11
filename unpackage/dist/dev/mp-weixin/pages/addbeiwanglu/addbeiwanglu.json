@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "添加备忘",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-message": "/uni_modules/uni-popup/components/uni-popup-message/uni-popup-message",
+    "u--form": "/uni_modules/uview-ui/components/u--form/u--form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u--textarea": "/uni_modules/uview-ui/components/u--textarea/u--textarea"
+  }
+}

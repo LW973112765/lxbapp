@@ -1,0 +1,233 @@
+
+.headNav {
+	position: relative;
+	display: flex;
+	color: #999999;
+	justify-content: center;
+}
+.navLine {
+	position: absolute;
+	bottom: 0;
+	width: 100rpx;
+	height: 10rpx;
+	background: #ffd607;
+	border-radius: 10rpx;
+	transition: ease-out 0.4s;
+}
+.headNav text {
+	font-weight: bold;
+	text-align: center;
+	width: 220rpx;
+	line-height: 80rpx;
+	transition: ease-out 0.4s;
+}
+.navActive {
+	color: #333;
+}
+.typeImg {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+}
+.inputBox {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30rpx;
+	font-weight: bold;
+	line-height: 120rpx;
+}
+.alignItems {
+	display: flex;
+	align-items: center;
+}
+.selectType {
+	font-size: 26rpx;
+	position: absolute;
+	top: 120rpx;
+	line-height: 60rpx;
+	background: #FFFFFF;
+	padding: 10rpx 20rpx;
+	border: 4rpx #F4F4F4 solid;
+	z-index: 10;
+}
+.selectType .alignItems text {
+	width: 100rpx;
+	text-align: center;
+}
+.triangle {
+	position: absolute;
+	left: 72rpx;
+	top: -20rpx;
+	width: 40rpx;
+	height: 40rpx;
+	background: #FFFFFF;
+	-webkit-transform: rotate(-135deg);
+	        transform: rotate(-135deg);
+	box-shadow: 4rpx 4rpx 4rpx #F4F4F4;
+}
+.typeTitle {
+	display: flex;
+	line-height: 60rpx;
+	color: #999999;
+	border-top: 20rpx #F4F4F4 solid;
+}
+.typeTitle text {
+	width: 25%;
+	line-height: 80rpx;
+	text-align: center;
+}
+.typeActive {
+	color: #333;
+	font-weight: bold;
+}
+.typeBox {
+	position: relative;
+	font-size: 24rpx;
+	color: #999999;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 30rpx 30rpx 30rpx;
+	border-bottom: 20rpx #F4F4F4 solid;
+}
+.kindBox {
+	width: 172rpx;
+	padding: 20rpx 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+.fillUp {
+	width: 156rpx;
+	height: 144rpx;
+	border-radius: 0 10rpx 0 10rpx;
+	background: #FFFFFF;
+}
+.selectKind {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 172rpx;
+	height: 160rpx;
+	background: linear-gradient(45deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4, #f441a5);
+	background-size: 400%;
+	border-radius: 0 10rpx 0 10rpx;
+	-webkit-filter: blur(2px);
+	        filter: blur(2px);
+	-webkit-animation: animate 8s linear infinite;
+	        animation: animate 8s linear infinite;
+	transition: ease-out 0.4s;
+}
+@-webkit-keyframes animate {
+0% {
+		background-position: 0%;
+}
+100% {
+		background-position: 400%;
+}
+}
+@keyframes animate {
+0% {
+		background-position: 0%;
+}
+100% {
+		background-position: 400%;
+}
+}
+.kindImg {
+	width: 80rpx;
+	height: 80rpx;
+	margin-bottom: 8rpx;
+}
+.footBox {
+	display: flex;
+	padding: 0 30rpx;
+	line-height: 80rpx;
+}
+.footBoxleft {
+	display: flex;
+	align-items: center;
+}
+.footBox input {
+	display: block;
+	flex: 1;
+	height: 80rpx;
+}
+.timeTitle {
+	font-weight: bold;
+	width: 160rpx;
+	text-align: center;
+	font-size: 30rpx;
+}
+.keyboardBox {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	background: #474669;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 10rpx 0 60rpx 0;
+}
+.flexColumn {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 100rpx;
+}
+.flexColumn view {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.flexColumn view:hover {
+	background: #656496;
+}
+.keyBtn {
+	width: 100%;
+	text-align: center;
+	background: #616593;
+	line-height: 200rpx;
+}
+.lastBtn {
+	padding: 80rpx 30rpx 30rpx;
+	display: flex;
+	justify-content: space-between;
+}
+.lastBtn .left {
+	color: #ff8e07;
+	border: 4rpx #ff8e07 solid;
+	border-radius: 20rpx;
+}
+.lastBtn .right {
+	color: #333333;
+	background: #ffd608;
+	border-radius: 20rpx;
+}
+.footBtn {
+	text-align: center;
+	width: 300rpx;
+	line-height: 80rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+}
+.updateClass {
+	margin: 80rpx auto 0;
+	color: #333333;
+	text-align: center;
+	width: 300rpx;
+	line-height: 80rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+	background: #ffd608;
+	border-radius: 20rpx;
+}
+

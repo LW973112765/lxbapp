@@ -1,0 +1,1 @@
+<view class="main data-v-7cdb601c"><view class="top data-v-7cdb601c"><button type="primary" round="{{true}}" data-event-opts="{{[['tap',[['getword',['$event']]]]]}}" bindtap="__e" class="data-v-7cdb601c">愿你每天开心😊</button></view><view class="content data-v-7cdb601c">{{value}}</view></view>

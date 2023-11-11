@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "帮助",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navber-mine": "/components/navbar/navber-mine"
+  }
+}

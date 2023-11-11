@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/photo/photo",
+    "pages/personal/personal",
+    "pages/article/article",
+    "pages/video/video",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/ArticleInfo/ArticleInfo",
+    "pages/VideoInfo/VideoInfo",
+    "pages/Liulanjilu/Liulanjilu",
+    "pages/Collectinfo/Collectinfo",
+    "pages/message/message",
+    "pages/note/note",
+    "pages/musicinfo/musicinfo",
+    "pages/musiclist/musiclist",
+    "pages/question/question",
+    "pages/questioninfo/questioninfo",
+    "pages/test/test",
+    "pages/search/search",
+    "pages/searchitem/searchitem",
+    "pages/musicintroduction/musicintroduction",
+    "pages/setting/setting",
+    "pages/tools/fanyi/fanyi",
+    "pages/tools/joke/joke",
+    "pages/tools/tianqi/tianqi",
+    "pages/tools/tupian/tupian",
+    "pages/tools/history/history",
+    "pages/tools/music/music",
+    "pages/tsetupload/tsetupload",
+    "pages/personinfo/personinfo",
+    "pages/uploadphoto/updan/updan",
+    "pages/uploadphoto/upduo/upduo",
+    "pages/showimg/showimg",
+    "pages/download/download",
+    "pages/downloadvideoinfo/downloadvideoinfo",
+    "pages/upvideo/upvideo",
+    "pages/accountmanage/accountmanage",
+    "pages/commentaudit/commentaudit",
+    "pages/suixinji/accounts/addAcc/addAcc",
+    "pages/suixinji/accounts/listAcc/listAcc",
+    "pages/suixinji/accounts/detailAcc/detailAcc",
+    "pages/suixinji/accounts/home/home",
+    "pages/suixinji/accounts/my/my",
+    "pages/upvideo/upvideoother/upvideoother",
+    "pages/beiwanglu/beiwanglu",
+    "pages/addbeiwanglu/addbeiwanglu",
+    "pages/beiwangludetail/beiwangludetail",
+    "uni_modules/rt-uni-update/components/rt-uni-update/rt-uni-update",
+    "pages/huaban/index/index",
+    "pages/huaban/whiteboard/whiteboard",
+    "pages/huaban/help/help",
+    "pages/huaban/blackboard/blackboard"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/images/fonts/shouye.png",
+        "selectedIconPath": "static/images/fonts/shouye1.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "文章",
+        "iconPath": "static/images/fonts/wenzhang.png",
+        "selectedIconPath": "static/images/fonts/wenzhang1.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "static/images/fonts/shiping.png",
+        "selectedIconPath": "static/images/fonts/shiping1.png"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "text": "相册",
+        "iconPath": "static/images/fonts/xiangce.png",
+        "selectedIconPath": "static/images/fonts/xiangce1.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "static/images/fonts/yonghu.png",
+        "selectedIconPath": "static/images/fonts/yonghu1.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}

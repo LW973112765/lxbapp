@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "留言",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "message-post": "/components/MessagePost/MessagePost",
+    "message-list": "/components/MessageList/MessageList"
+  }
+}

@@ -1,0 +1,97 @@
+
+page{
+	background:url(/static/images/bg/registerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+page.data-v-b237504c {
+  width: 100%;
+  height: 100%;
+}
+button.data-v-b237504c {
+  margin-top: 40rpx;
+}
+input.data-v-b237504c {
+  margin: 10rpx;
+  border: 2rpx solid #999;
+  border-radius: 5rpx;
+  background-color: #eee;
+  height: 60rpx;
+}
+.other.data-v-b237504c {
+  padding-left: 10rpx;
+  color: yellow;
+}
+.login.data-v-b237504c {
+  width: 90%;
+  height: 800rpx;
+  padding-left: 40rpx;
+  padding-right: 50rpx;
+  margin: 0 auto;
+  margin-top: 180rpx;
+  padding-top: 20rpx;
+  border-radius: 10rpx;
+  position: relative;
+  opacity: 0.9;
+}
+.zhaohuipwd.data-v-b237504c {
+  width: 90%;
+  height: 800rpx;
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+  padding-right: 50rpx;
+  margin: 0 auto;
+  margin-top: 180rpx;
+  border-radius: 10rpx;
+  position: relative;
+  opacity: 0.9;
+}
+.title.data-v-b237504c {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 30rpx;
+  text-align: center;
+  color: #666;
+}
+.zhuce.data-v-b237504c {
+  font-size: 35rpx;
+  color: aqua;
+  cursor: pointer;
+}
+.zhuce.data-v-b237504c:hover {
+  text-decoration: underline;
+  color: red;
+}
+.youke.data-v-b237504c {
+  font-size: 35rpx;
+  cursor: pointer;
+  color: yellow;
+}
+.youke.data-v-b237504c:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.zhaohui.data-v-b237504c {
+  font-size: 35rpx;
+  color: blueviolet;
+  cursor: pointer;
+}
+.zhaohui.data-v-b237504c:hover {
+  text-decoration: underline;
+}
+.zhaohui1.data-v-b237504c {
+  font-size: 35rpx;
+  color: deeppink;
+  cursor: pointer;
+}
+.zhaohui1.data-v-b237504c:hover {
+  text-decoration: underline;
+}
+._footer.data-v-b237504c {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+

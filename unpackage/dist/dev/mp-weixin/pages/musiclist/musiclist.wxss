@@ -1,0 +1,92 @@
+page.data-v-3140130e {
+  height: 100%;
+}
+.recommendSongContainer .header.data-v-3140130e {
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+}
+.recommendSongContainer .header image.data-v-3140130e {
+  width: 100%;
+  height: 100%;
+}
+.recommendSongContainer .header .date.data-v-3140130e {
+  position: absolute;
+  left: 52%;
+  top: 55%;
+  margin-left: -150rpx;
+  margin-top: -50rpx;
+  width: 300rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+}
+.header .date .day.data-v-3140130e {
+  font-size: 38rpx;
+}
+/* 列表区域 */
+.ListContainer.data-v-3140130e {
+  position: relative;
+  top: -20rpx;
+  padding: 0 20rpx;
+  border-radius: 30rpx;
+  background: #fff;
+}
+.listHeader.data-v-3140130e {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.listHeader .changeMore.data-v-3140130e {
+  float: right;
+}
+/* 内容区 */
+.listScroll.data-v-3140130e {
+  height: calc(100vh - 380rpx);
+}
+.scrollItem.data-v-3140130e {
+  position: relative;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.scrollItem image.data-v-3140130e {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 8rpx;
+}
+.musicInfo.data-v-3140130e {
+  display: flex;
+  padding: 20rpx;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+.musicInfo .author .reason.data-v-3140130e {
+  color: red;
+  font-size: 20rpx;
+  background-color: #ffd8cf;
+  margin-right: 10rpx;
+  border-radius: 10rpx;
+  padding: 5rpx;
+}
+.musicInfo .author .name.data-v-3140130e {
+  color: #999;
+}
+.musicInfo text.data-v-3140130e {
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  max-width: 500rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.scrollItem .iconfont.data-v-3140130e {
+  position: absolute;
+  right: 0;
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: right;
+}
+
